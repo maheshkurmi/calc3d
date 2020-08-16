@@ -1,0 +1,32 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Calc3D FAQ</title>
+ <style type="text/css">
+   body {background-color:white;}
+   p{color:black;font-family:verdana;font-size:11}
+	 h1{color:black; font-family:verdana;font-size:13}
+   h2{color:darkblue; font-family:verdana;font-size:15}
+	 h3{color:black; font-family:verdana;font-size:17}
+	 a{color:darkblue;font-family:verdana;font-size:11;}
+ </style>
+</head>
+
+<body bgcolor="#ffffff">
+<img src="app-icon.png" alt="">
+<h3>Frequently asked questions</h3>
+<hr>
+<p><b>Q: How do I plot a function <code>z = </code>[my function]?</b>
+<br>A: Start a new document. Menu <i>Insert</i> > <i>add 3D Surface</i> (or click <img src="addsurface-icon.png"> in the toolbar). Replace the function definition with <code>z = </code>[your function], for example, <code>z=(sin(5x)+sin(5y))/5</code>.
+<p><b>Q: How do I plot a curve?</b>
+<br>A: Start a new document. Menu <i>Insert</i> > <i>add 3D Curve</i> (or click <img src="addcurve3d-icon.png"> in the toolbar). Replace the function definition with <code>z = </code>[your function], for example, <code>x=sin(t);y=cos(t);z=t</code>.
+<p><b>Q: How do I define a parametric surface?</b>
+<br>A: Define x, y, z as functions of u and v. Your surface will be plotted as u and v each vary over [0,1]. For example, <code>u=2 Pi u; x=cos(u); y=sin(u); z=v</code> will define a cylinder.
+<p><b>Q: How do I make the parameters u,v, or t vary over a different range than [0,1]?</b>
+<br>A: Insert a line in the beginning, for example if you want to change the range of u to [5,15] then add in the beginning, <code>u=u*(15-5)+5</code>.
+<p><b>Q: If I know equation of a curve on x-z plane, how do create a rotational sweep of it along z axis?</b>
+<br>A: Define your curve with respecto parameter <code>u</code> or <code>t</code>, and in the end, add: <code>v=2*Pi*v; r=x; x=r*sin(v); y=r*cos(v)</code>. Do not forget to turn off <i>Funtion is Curve</i> button. You can modify this to rotate along other axes also.
+<p><b>Q: I can see the surface clearly in Wireframe mode, but it completely disappears when I turn on Solid mode.</b>
+<br>A: Turn off the Fog, or increase its range.
+</body>
+</html>
