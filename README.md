@@ -1,7 +1,7 @@
 # Calc3D: 3D Engine built in pure Java
 
 Calc3d lets you visualize three dimensional mathematical elements , viz Point, vector, line curve and allows to plot and explore 3 Dimensional Graphs of Mathematical Functions.
-![Calc3d Screenshot](calc3d_screenshot.png?raw=true "Calc3d Screenshot")
+![Calc3d Screenshot](calc3d/calc3d_screenshot.png?raw=true "Calc3d Screenshot")
 ### Elements Supported
 
 Point
