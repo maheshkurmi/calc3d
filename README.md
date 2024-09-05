@@ -2,6 +2,9 @@
 
 Calc3d lets you visualize three dimensional mathematical elements , viz Point, vector, line curve and allows to plot and explore 3 Dimensional Graphs of Mathematical Functions.
 ![Calc3d Screenshot](Calc3D/calc3d_screenshot.png?raw=true "Calc3d Screenshot")
+![Kurmi-Calc3d-5-748x321](https://github.com/user-attachments/assets/458f708c-b866-400b-a4de-356df3221ca7)
+![Kurmi-Calc3d_6-786x321](https://github.com/user-attachments/assets/3258aaf6-1dd0-494a-b290-cb823767451d)
+
 ### Elements Supported
 
 Point
